@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/Currency Converter/images/background.jpg');
+    background-size: cover;
+    font-family: 'Poppins', Arial, sans-serif;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    
+}
+
+
+.container {
+    background-image: url('/Currency Converter/images/1.png');
+    position: center;
+    opacity: .5;
+    height: 90vh;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0);
+  
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow:
+        0 0 10px #4d0549,
+        0 0 20px #4d0549,
+        0 0 40px #4d0549,
+        0 0 80px #4d0549;
+
+
+    /* transition: text-shadow 0.3s;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px; */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #4d0549;
+}
+
+button {
+    background: #fff;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    font: bold;
+    border: none;
+    cursor: pointer;
+    transition:  0.2s;
+    box-shadow: 0 0 10px #4d0549, 0 0 20px #4d0549;
+}
+
+button:hover {
+    background: #4d0549;
+    box-shadow: 0 0 20px #4d0549, 0 0 40px #4d0549;
+}
+
+
+.result {
+    background: #4d0549;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    color: #000000;
+    font: bold;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 600;
+    box-shadow: 0 0 10px #4d0549, 0 0 20px #4d0549;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        padding: 18px 8px;
+    }
+    h1, h2 {
+        font-size: 1.7rem;
+    }
+}
